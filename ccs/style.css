@@ -1,0 +1,75 @@
+/*Pagina PRINCIPAL*/
+footer {
+    height: 60px;
+    text-decoration: white;
+}
+
+.form-right i {
+    font-size: 100px;
+}
+
+.boton {
+    align-items: center;
+}
+
+.ser {
+    width: 350px;
+    height: 650px;
+}
+
+.hola {
+    width: 100%;
+    height: 850px;
+    background-image: url("../img/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.fondo {
+    align-items: center;
+    height: 500px;
+}
+
+h2 {
+    padding-top: 150px;
+}
+
+.con {
+    padding-top: 50px;
+}
+
+  
+
+/*Pagina REGISTRO De PROFECIONAL*/
+
+.ser2 {
+
+    padding-top: 60px;
+}
+
+/*Pagina REGISTRO Usuario*/
+
+.ser1 {
+
+    padding-top: 30px;
+}
+
+/*Pagina Usuario sticky-top esto para el nav*/
+
+
+
+.fon {
+    width: 100%;
+    background-image: url("/img/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.usu{
+
+    padding-left: 50px;
+}

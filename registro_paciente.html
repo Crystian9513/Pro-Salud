@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="ccs/style.css">
+    <link rel="stylesheet" href="ccs/aos.css">
+
+
+
+</head>
+<body>
+
+    <!--Contenedor-->
+    <div class="container">
+        <header>
+            <div class="row py-2"> <!--logo-->
+                <div class="col-lg-4 col-md-5 bg-light bg-opacity-75 py-2 text-center">
+    
+                    <img src="img/logo.png" width="300" height="80" alt="">
+    
+                </div><!--logo final-->
+    
+                <!--Nav-->
+                <div class="col-lg-5 col-md-5 py-4 bg-light bg-opacity-75 text-center">
+    
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary fw-bold" aria-current="page"
+                                href="sesion.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold" href="registro_profecional.html">Profesional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold" href="#">Paciente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold" href="registro_historial.html">Historial</a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <div class="col-lg-1 col-md-1 bg-light bg-opacity-75 text-center">
+    
+                    <a class="nav-link dropdown-toggle mt-4" data-bs-toggle="dropdown" role="button"
+                        aria-expanded="false"><img src="img/usuario.png" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Inicio_Secion.html">Salir</a></li>
+                    </ul>
+                </div><!--Nav final-->
+    
+                <!--Iconos-->
+                <div class="col-lg-2 py-4 bg-primary bg-opacity-50">
+    
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a href="http://www.facebook.com"><img src="img/facebook.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://www.instagram.com"> <img src="img/instagram.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://www.twitter.com"> <img src="img/twitter.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div><!--Iconos final-->
+            </div>
+        </header>
+    </div>
+
+    <!--Formulario-->
+    <div class="container-fluid" data-aos="fade-up">
+        <div class="row shadow rounded">
+
+            <h3 class="py-5 text-center">Registro del Paciente</h3>
+
+            <div class="col-lg-2 col-md-0 col-sd-12 ser3"></div>
+
+            <div class="col-lg-4 col-md-6 col-sd-12 ser3">
+                <div class="bg-white">
+                    <div class="row bg-white">
+                        <div class="col-md-12 pe-0">
+                            <div class="form-left h-100 px-5">
+
+                                <!--Primera Prate-->
+                                
+                                <form action="" class="row g-2">
+                                    
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">DNI:</div>
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Foto:</div>
+                                            <input type="file" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Nombres:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Apellidos:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Fecha de Nacimiento:</div>
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Sexo:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">Masculino</option>
+                                                <option value="2">Femenino</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Representante:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Telefono:</div>
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Sala:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">Emergencia</option>
+                                                <option value="2">Sala A</option>
+                                                <option value="3">Laboratorio</option>
+                                                <option value="4">Rayos X</option>
+                                                <option value="5">Hospitalizacion</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Direccion:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Pais:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">Colombia</option>
+                                                <option value="2">Venezuela</option>
+                                                <option value="3">Ecuador</option>
+                                                <option value="4">Peru</option>
+                                                <option value="5">Panama</option>
+                                                <option value="6">Brasil</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Departamento:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sd-12 ser3">
+                <div class="bg-white">
+                    <div class="row bg-white">
+                        <div class="col-md-12 pe-0">
+                            <div class="form-left h-100 px-5">
+
+                                <!--PARTE DESDE EL NOMBRE DE USUARIO-->
+
+                                <form action="" class="row g-2">
+                                   
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Provincia:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Distrito:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Estado Civil:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">Casado</option>
+                                                <option value="2">Soltero</option>
+                                                <option value="3">Viudo</option>
+                                                <option value="4">Union Libre</option>
+                                                <option value="5">Separado</option>
+                                                <option value="6">Divorciado</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Emergencia:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Grupo Sanguineo:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">A+</option>
+                                                <option value="2">A-</option>
+                                                <option value="3">B+</option>
+                                                <option value="4">B-</option>
+                                                <option value="5">AB+</option>
+                                                <option value="6">AB-</option>
+                                                <option value="7">O+</option>
+                                                <option value="8">O-</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">VIH:</div>
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected></option>
+                                                <option value="1">SI</option>
+                                                <option value="2">NO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Ocupacion:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Peso:</div>
+                                            <input type="number" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Talla:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Alergias:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Medicamento que Toma:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <div class="input-group-text col-6">Enfermedad:</div>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 py-2 pb-5">
+                                        <button type="submit" class="btn btn-primary px-4 float-end mt-2">Registrar
+                                    </div>
+                                    <div class="col-6 py-2 pb-5">
+                                        <button type="reset" class="btn btn-primary px-4 mt-2">Borrar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Formulario-->
+            <div class="col-lg-2 col-md-6 col-sd-12 ser3"></div>
+        </div>
+    </div>
+
+    <footer class="py-3 mt-2 bg-primary text-center">
+        <div class="row">
+         <div class="col-lg-4 col-md-6 col-sd-6  ">
+
+             <i class="bi bi-facebook"> <a class="text-white" href="http://www.facebook.com">Facebook</a></i>
+             <i class="bi bi-instagram"> <a class="text-white" href="http://www.instagram.com">Instagram</a></i>
+             <i class="bi bi-twitter"> <a class="text-white" href="http://www.twitter.com">Twitter</a></i>
+         </div>
+         <div class="col-lg-8 col-md-6 col-sd-6">
+
+             <p class="text-white">Copyright 2023. Crystian Peralta Developer.</p>
+         
+         </div>
+        </div>
+     </footer>
+    
+    <script src="js/aos.js"></script>
+    <script src="js/sesion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
