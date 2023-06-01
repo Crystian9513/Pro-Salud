@@ -6,7 +6,7 @@ function validarUsuario(event) {
   
     //  verificar si el usuario y contraseña son correctos.
     if (username === 'crystian' && password === '1234') {
-      window.location.href = "../sesion.html";
+      window.location.href = "sesion.html";
     } else {
       alert('Usuario o contraseña incorrectos.');
     }
